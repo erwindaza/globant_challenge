@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+*.sqlite3
+*.pytest_cache/
+instance/
+venv/
+.env
+.env.*
+*.ini
+*.cfg
+*.bak
+*.swp
+*.tmp
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.so
+*.dll
+*.dylib
+
+# Data & Output
+data/
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.zip
+
+# Docker
+*.pid
+*.tar
+*.bak
+*.log
+.dockerignore
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing & Reports
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.tox/
+*.nox/
+test-results/
